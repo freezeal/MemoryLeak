@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27C5A472BD0818900491092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A462BD0818900491092 /* AppDelegate.swift */; };
+		C27C5A492BD0818900491092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A482BD0818900491092 /* SceneDelegate.swift */; };
+		C27C5A4B2BD0818900491092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A4A2BD0818900491092 /* ViewController.swift */; };
+		C27C5A4E2BD0818900491092 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C27C5A4D2BD0818900491092 /* Base */; };
+		C27C5A502BD0818900491092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27C5A4F2BD0818900491092 /* Assets.xcassets */; };
+		C27C5A532BD0818900491092 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C27C5A522BD0818900491092 /* Base */; };
+		C27C5A5E2BD0818900491092 /* MemoryLeak_T2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A5D2BD0818900491092 /* MemoryLeak_T2_Tests.swift */; };
+		C27C5A682BD0818A00491092 /* MemoryLeak_T2_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A672BD0818A00491092 /* MemoryLeak_T2_UITests.swift */; };
+		C27C5A6A2BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A692BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27C5A5A2BD0818900491092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27C5A3B2BD0818900491092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27C5A422BD0818900491092;
+			remoteInfo = "MemoryLeak(T2)";
+		};
+		C27C5A642BD0818A00491092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27C5A3B2BD0818900491092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27C5A422BD0818900491092;
+			remoteInfo = "MemoryLeak(T2)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27C5A432BD0818900491092 /* MemoryLeak(T2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemoryLeak(T2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27C5A462BD0818900491092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C27C5A482BD0818900491092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C27C5A4A2BD0818900491092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C27C5A4D2BD0818900491092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C27C5A4F2BD0818900491092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C27C5A522BD0818900491092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C27C5A542BD0818900491092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27C5A592BD0818900491092 /* MemoryLeak(T2)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemoryLeak(T2)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27C5A5D2BD0818900491092 /* MemoryLeak_T2_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeak_T2_Tests.swift; sourceTree = "<group>"; };
+		C27C5A632BD0818A00491092 /* MemoryLeak(T2)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemoryLeak(T2)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27C5A672BD0818A00491092 /* MemoryLeak_T2_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeak_T2_UITests.swift; sourceTree = "<group>"; };
+		C27C5A692BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeak_T2_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27C5A402BD0818900491092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27C5A562BD0818900491092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27C5A602BD0818A00491092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27C5A3A2BD0818900491092 = {
+			isa = PBXGroup;
+			children = (
+				C27C5A452BD0818900491092 /* MemoryLeak(T2) */,
+				C27C5A5C2BD0818900491092 /* MemoryLeak(T2)Tests */,
+				C27C5A662BD0818A00491092 /* MemoryLeak(T2)UITests */,
+				C27C5A442BD0818900491092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27C5A442BD0818900491092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27C5A432BD0818900491092 /* MemoryLeak(T2).app */,
+				C27C5A592BD0818900491092 /* MemoryLeak(T2)Tests.xctest */,
+				C27C5A632BD0818A00491092 /* MemoryLeak(T2)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27C5A452BD0818900491092 /* MemoryLeak(T2) */ = {
+			isa = PBXGroup;
+			children = (
+				C27C5A462BD0818900491092 /* AppDelegate.swift */,
+				C27C5A482BD0818900491092 /* SceneDelegate.swift */,
+				C27C5A4A2BD0818900491092 /* ViewController.swift */,
+				C27C5A4C2BD0818900491092 /* Main.storyboard */,
+				C27C5A4F2BD0818900491092 /* Assets.xcassets */,
+				C27C5A512BD0818900491092 /* LaunchScreen.storyboard */,
+				C27C5A542BD0818900491092 /* Info.plist */,
+			);
+			path = "MemoryLeak(T2)";
+			sourceTree = "<group>";
+		};
+		C27C5A5C2BD0818900491092 /* MemoryLeak(T2)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C27C5A5D2BD0818900491092 /* MemoryLeak_T2_Tests.swift */,
+			);
+			path = "MemoryLeak(T2)Tests";
+			sourceTree = "<group>";
+		};
+		C27C5A662BD0818A00491092 /* MemoryLeak(T2)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C27C5A672BD0818A00491092 /* MemoryLeak_T2_UITests.swift */,
+				C27C5A692BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift */,
+			);
+			path = "MemoryLeak(T2)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27C5A422BD0818900491092 /* MemoryLeak(T2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27C5A6D2BD0818A00491092 /* Build configuration list for PBXNativeTarget "MemoryLeak(T2)" */;
+			buildPhases = (
+				C27C5A3F2BD0818900491092 /* Sources */,
+				C27C5A402BD0818900491092 /* Frameworks */,
+				C27C5A412BD0818900491092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MemoryLeak(T2)";
+			productName = "MemoryLeak(T2)";
+			productReference = C27C5A432BD0818900491092 /* MemoryLeak(T2).app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27C5A582BD0818900491092 /* MemoryLeak(T2)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27C5A702BD0818A00491092 /* Build configuration list for PBXNativeTarget "MemoryLeak(T2)Tests" */;
+			buildPhases = (
+				C27C5A552BD0818900491092 /* Sources */,
+				C27C5A562BD0818900491092 /* Frameworks */,
+				C27C5A572BD0818900491092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27C5A5B2BD0818900491092 /* PBXTargetDependency */,
+			);
+			name = "MemoryLeak(T2)Tests";
+			productName = "MemoryLeak(T2)Tests";
+			productReference = C27C5A592BD0818900491092 /* MemoryLeak(T2)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C27C5A622BD0818A00491092 /* MemoryLeak(T2)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27C5A732BD0818A00491092 /* Build configuration list for PBXNativeTarget "MemoryLeak(T2)UITests" */;
+			buildPhases = (
+				C27C5A5F2BD0818A00491092 /* Sources */,
+				C27C5A602BD0818A00491092 /* Frameworks */,
+				C27C5A612BD0818A00491092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27C5A652BD0818A00491092 /* PBXTargetDependency */,
+			);
+			name = "MemoryLeak(T2)UITests";
+			productName = "MemoryLeak(T2)UITests";
+			productReference = C27C5A632BD0818A00491092 /* MemoryLeak(T2)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27C5A3B2BD0818900491092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C27C5A422BD0818900491092 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C27C5A582BD0818900491092 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C27C5A422BD0818900491092;
+					};
+					C27C5A622BD0818A00491092 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C27C5A422BD0818900491092;
+					};
+				};
+			};
+			buildConfigurationList = C27C5A3E2BD0818900491092 /* Build configuration list for PBXProject "MemoryLeak(T2)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27C5A3A2BD0818900491092;
+			productRefGroup = C27C5A442BD0818900491092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27C5A422BD0818900491092 /* MemoryLeak(T2) */,
+				C27C5A582BD0818900491092 /* MemoryLeak(T2)Tests */,
+				C27C5A622BD0818A00491092 /* MemoryLeak(T2)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27C5A412BD0818900491092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27C5A502BD0818900491092 /* Assets.xcassets in Resources */,
+				C27C5A532BD0818900491092 /* Base in Resources */,
+				C27C5A4E2BD0818900491092 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27C5A572BD0818900491092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27C5A612BD0818A00491092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27C5A3F2BD0818900491092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27C5A4B2BD0818900491092 /* ViewController.swift in Sources */,
+				C27C5A472BD0818900491092 /* AppDelegate.swift in Sources */,
+				C27C5A492BD0818900491092 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27C5A552BD0818900491092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27C5A5E2BD0818900491092 /* MemoryLeak_T2_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27C5A5F2BD0818A00491092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27C5A6A2BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift in Sources */,
+				C27C5A682BD0818A00491092 /* MemoryLeak_T2_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27C5A5B2BD0818900491092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27C5A422BD0818900491092 /* MemoryLeak(T2) */;
+			targetProxy = C27C5A5A2BD0818900491092 /* PBXContainerItemProxy */;
+		};
+		C27C5A652BD0818A00491092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27C5A422BD0818900491092 /* MemoryLeak(T2) */;
+			targetProxy = C27C5A642BD0818A00491092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C27C5A4C2BD0818900491092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27C5A4D2BD0818900491092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C27C5A512BD0818900491092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27C5A522BD0818900491092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C27C5A6B2BD0818A00491092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C27C5A6C2BD0818A00491092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27C5A6E2BD0818A00491092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY2H996N9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MemoryLeak(T2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FirstApp.MemoryLeak-T2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C27C5A6F2BD0818A00491092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY2H996N9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MemoryLeak(T2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FirstApp.MemoryLeak-T2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C27C5A712BD0818A00491092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY2H996N9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FirstApp.MemoryLeak-T2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryLeak(T2).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MemoryLeak(T2)";
+			};
+			name = Debug;
+		};
+		C27C5A722BD0818A00491092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY2H996N9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FirstApp.MemoryLeak-T2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryLeak(T2).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MemoryLeak(T2)";
+			};
+			name = Release;
+		};
+		C27C5A742BD0818A00491092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY2H996N9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FirstApp.MemoryLeak-T2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MemoryLeak(T2)";
+			};
+			name = Debug;
+		};
+		C27C5A752BD0818A00491092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY2H996N9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FirstApp.MemoryLeak-T2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MemoryLeak(T2)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27C5A3E2BD0818900491092 /* Build configuration list for PBXProject "MemoryLeak(T2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27C5A6B2BD0818A00491092 /* Debug */,
+				C27C5A6C2BD0818A00491092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27C5A6D2BD0818A00491092 /* Build configuration list for PBXNativeTarget "MemoryLeak(T2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27C5A6E2BD0818A00491092 /* Debug */,
+				C27C5A6F2BD0818A00491092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27C5A702BD0818A00491092 /* Build configuration list for PBXNativeTarget "MemoryLeak(T2)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27C5A712BD0818A00491092 /* Debug */,
+				C27C5A722BD0818A00491092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27C5A732BD0818A00491092 /* Build configuration list for PBXNativeTarget "MemoryLeak(T2)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27C5A742BD0818A00491092 /* Debug */,
+				C27C5A752BD0818A00491092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27C5A3B2BD0818900491092 /* Project object */;
+}
