@@ -16,6 +16,7 @@
 		C27C5A5E2BD0818900491092 /* MemoryLeak_T2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A5D2BD0818900491092 /* MemoryLeak_T2_Tests.swift */; };
 		C27C5A682BD0818A00491092 /* MemoryLeak_T2_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A672BD0818A00491092 /* MemoryLeak_T2_UITests.swift */; };
 		C27C5A6A2BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A692BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift */; };
+		C27C5A7B2BD0873100491092 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C5A7A2BD0873100491092 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C27C5A632BD0818A00491092 /* MemoryLeak(T2)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemoryLeak(T2)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27C5A672BD0818A00491092 /* MemoryLeak_T2_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeak_T2_UITests.swift; sourceTree = "<group>"; };
 		C27C5A692BD0818A00491092 /* MemoryLeak_T2_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeak_T2_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C27C5A7A2BD0873100491092 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C27C5A462BD0818900491092 /* AppDelegate.swift */,
 				C27C5A482BD0818900491092 /* SceneDelegate.swift */,
 				C27C5A4A2BD0818900491092 /* ViewController.swift */,
+				C27C5A7A2BD0873100491092 /* SecondViewController.swift */,
 				C27C5A4C2BD0818900491092 /* Main.storyboard */,
 				C27C5A4F2BD0818900491092 /* Assets.xcassets */,
 				C27C5A512BD0818900491092 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27C5A7B2BD0873100491092 /* SecondViewController.swift in Sources */,
 				C27C5A4B2BD0818900491092 /* ViewController.swift in Sources */,
 				C27C5A472BD0818900491092 /* AppDelegate.swift in Sources */,
 				C27C5A492BD0818900491092 /* SceneDelegate.swift in Sources */,
@@ -450,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +483,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
